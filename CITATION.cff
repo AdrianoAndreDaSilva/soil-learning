@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "Se usar este software, cite-o conforme os metadados abaixo."
+type: software
+title: "soil-learning: FedAvg e FedPer na previsão da umidade do solo com estações do CEMADEN"
+version: 1.0.0
+license: PolyForm-Noncommercial-1.0.0
+repository-code: "https://github.com/AdrianoAndreDaSilva/soil-learning"
+authors:
+  - family-names: "da Silva"
+    given-names: "Adriano André"
+    affiliation: "Universidade Feevale"
+keywords:
+  - federated learning
+  - personalized federated learning
+  - FedAvg
+  - FedPer
+  - soil moisture forecasting
+  - CEMADEN
+references:
+  - type: thesis
+    title: "Personalização no aprendizado federado para previsão da umidade do solo: FedAvg x FedPer na rede do CEMADEN"
+    authors:
+      - family-names: "da Silva"
+        given-names: "Adriano André"
+      - family-names: "de Carvalho"
+        given-names: "Juliano Varella"
+    thesis-type: "Trabalho de Conclusão de Curso (Ciência da Computação)"
+    institution:
+      name: "Universidade Feevale"
+      city: "Novo Hamburgo"
+      region: "RS"
+      country: "BR"
+    year: 2026
+  - type: data
+    title: "A soil moisture dataset over the Brazilian semiarid region"
+    authors:
+      - family-names: "Zeri"
+        given-names: "Marcelo"
+      - family-names: "Costa"
+        given-names: "José Maria"
+      - family-names: "Urbano"
+        given-names: "Domingos"
+      - family-names: "Cuartas"
+        given-names: "Luz Adriana"
+      - family-names: "Ivo"
+        given-names: "André"
+      - family-names: "Marengo"
+        given-names: "José"
+      - family-names: "Alvalá"
+        given-names: "Regina C. S."
+    publisher:
+      name: "Mendeley Data"
+    version: "2"
+    doi: "10.17632/xrk5rfcpvg.2"
+    license: CC-BY-4.0
+    year: 2020

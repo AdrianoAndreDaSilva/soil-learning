@@ -1,0 +1,35 @@
+{
+  "data_dir": "data/processed/curated",
+  "input_variant": "relative",
+  "future_rain": false,
+  "lookback_days": 30,
+  "horizon_days": 14,
+  "min_train_examples": 24,
+  "batch_size": 32,
+  "weight_decay": 1e-05,
+  "huber_delta": 0.005,
+  "residual_scale": 0.05,
+  "initial_rounds": 1,
+  "initial_local_epochs": 3,
+  "initial_learning_rate": 0.001,
+  "local_epochs": 1,
+  "learning_rate": 0.0001,
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2026
+  ],
+  "architectures": [
+    "lstm",
+    "tcn"
+  ],
+  "methods": [
+    "fedavg",
+    "fedper",
+    "finetune",
+    "local",
+    "central"
+  ]
+}

@@ -1,0 +1,5 @@
+a,b,dif,ic_inf,ic_sup
+orc_sem,orc_com,0.0411759,0.0284679,0.0538578
+final_com,orc_com,0.0029853,-0.0106725,0.0160177
+final_sem,orc_sem,-0.0290878,-0.0409002,-0.0175674
+final_sem,final_com,0.00910276,0.00572121,0.0124345

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soil-learning"
+version = "1.0.0"
+description = "FedAvg e FedPer na previsão da umidade do solo a 20 cm com estações do CEMADEN"
+readme = "README.md"
+license = "PolyForm-Noncommercial-1.0.0"
+license-files = ["LICENSE"]
+authors = [{ name = "Adriano André da Silva" }]
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.4.6",
+  "pandas==3.0.5",
+  "pyarrow==25.0.1",
+  "scipy==1.17.1",
+  "torch==2.14.0",
+  "openpyxl==3.1.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.urls]
+Repository = "https://github.com/AdrianoAndreDaSilva/soil-learning"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,27 @@
+{
+  "data_dir": "data/processed/ped",
+  "input_variant": "relative",
+  "future_rain": true,
+  "lookback_days": 30,
+  "horizon_days": 14,
+  "min_train_examples": 24,
+  "batch_size": 32,
+  "weight_decay": 1e-05,
+  "huber_delta": 0.005,
+  "residual_scale": 0.05,
+  "initial_rounds": 100,
+  "initial_local_epochs": 10,
+  "initial_learning_rate": 0.001,
+  "local_epochs": 3,
+  "learning_rate": 0.001,
+  "seeds": [
+    42,
+    123
+  ],
+  "architectures": [
+    "lstm"
+  ],
+  "methods": [
+    "fedavg"
+  ]
+}

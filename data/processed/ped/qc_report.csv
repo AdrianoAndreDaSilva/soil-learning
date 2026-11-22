@@ -1,0 +1,9 @@
+variable,rule,days_removed,stations,hours_removed,days_study,days_qc
+US20cm,"ano com falha crônica (> 20% das horas acima de 0,6)",14270.0,108.0,,,
+US20cm,"sensor travado com chuva (≥ 30 dias, ≥ 50 mm)",21163.0,107.0,,,
+US20cm,deriva do sensor (piso seco a mais de 0.08 do primeiro ano),175592.0,259.0,,,
+US20cm,"leitura horária acima de 0,6 (faixa)",,317.0,1148875.0,,
+US20cm,pico que volta na hora seguinte,,389.0,24342.0,,
+US20cm,zero logo depois de valor alto (falha de leitura),,285.0,394419.0,,
+US20cm,dias válidos: só faixa e horas × controle ampliado,,,,645125.0,418615.0
+precip,ano com chuva fora de [1/3; 3] da mediana da rede,118199.0,257.0,,,
